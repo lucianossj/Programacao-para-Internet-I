@@ -1,0 +1,125 @@
+<html>
+
+<head>
+
+	<link rel = "stylesheet" type = "text/css" href = "CSS/style.css">
+	
+	<meta charset="utf-8">
+
+	<title> Cadastro de Usuários </title>
+
+</head>
+
+<body class = "paginaB">
+
+	<h3 class = "paginaB"> Cadastro de Novos Usuários </h3>
+
+	<form class = "formText" id = "usuario" onSubmit = "return cadastroOk(this)"> 
+
+		<table> 
+
+			<tr> <td colspan = "2"> <h4> Dados Pessoais </h4> </td> </tr>
+
+			<tr> <td width = "25%"> Nome completo: </td> <td> <input type = "text" id = "nome" class = "formField" form = "usuario"> </td> </tr>
+			<tr> <td> Endereço: </td> <td> <input type ="text" id = "endereco" class = "formField" form = "usuario"> </td></tr>
+			<tr> <td> Cidade: </td> <td> <input type ="text" id = "cidade" class = "formField" form = "usuario"> </td></tr>
+			<tr> <td> Estado: </td> <td> 	<select id = "estado"  form = "usuario" class = "formComboBox"> 
+												
+												<option value = "selecione"> Selecione... </option>
+
+												<option value = "ac"> Acre </option>
+
+												<option value = "al"> Alagoas </option>
+
+												<option value = "ap"> Amapá </option>
+
+												<option value = "ba"> Bahia </option>
+
+												<option value = "ce"> Ceará </option>
+
+												<option value = "df"> Distrito Federal </option>
+
+												<option value = "es"> Espirito Santo </option>
+
+												<option value = "go"> Goiás </option>
+
+												<option value = "ma"> Maranhão </option>
+
+												<option value = "mt"> Mato Grosso </option>
+
+												<option value = "ms"> Mato Grosso do Sul </option>
+
+												<option value = "mg"> Minas Gerais </option>
+
+												<option value = "pa"> Pará </option>
+
+												<option value = "pb"> Paraíba </option>
+
+												<option value = "pr"> Paraná </option>
+
+												<option value = "pe"> Pernambuco </option>
+
+												<option value = "pi"> Piauí </option>
+
+												<option value = "rj"> Rio de Janeiro </option>
+
+												<option value = "rn"> Rio Grande do Norte </option>
+
+												<option value = "rs"> Rio Grande do Sul </option>
+											
+												<option value = "ro"> Rondônia </option>
+
+												<option value = "rr"> Roraima </option>
+
+												<option value = "sc"> Santa Catarina </option>
+
+												<option value = "rs"> São Paulo </option>
+
+												<option value = "se"> Sergipe </option>
+
+												<option value = "to"> Tocantins </option>
+
+											</select> </td> </tr>
+
+
+
+	  		<tr> <td colspan = "2"> <h4> Dados do Sistema </h4> </td> </tr>
+			
+			<tr> <td> Nome de Usuário: </td> <td> <input type="text" id = "usuario" form = "usuario" class="formField"> </td></tr>
+			<tr> <td> Senha: </td> <td> <input type="password" id = "senha" form = "usuario" class="formField"> </td></tr>
+			<tr> <td> Confirme a senha: </td> <td> <input type="password" id = "senha2" form = "usuario" class="formField"> </td></tr>
+
+			<tr> <td colspan = "2"> <a href = "index.html" url = "index.html"> <input type = "submit" class = "formButton" value = "Cadastrar o Usuário" id = "cadastrar"> </a> </td> </tr>
+
+		</table>	
+
+	</form>
+
+	<a href = "index.html"> <button class = "back"> VOLTAR </button> </a>
+
+</body>
+
+</html>
+
+<script type = "text/javascript" language = "JavaScript">
+
+	function cadastroOk(form){
+
+		if(form.nome.value == "" || form.endereco.value == "" || form.cidade.value == "" || form.estado.value == "selecione" || form.usuario.value == "" || form.senha.value == "" || form.senha2.value == ""){
+
+			alert("ERRO!!! \nPreencha todos os campos corretamente!");
+
+			document.getElementByID("nome").focus();
+
+			return false
+
+		} else {
+
+			alert("Cadastro realizado com sucesso!!!");
+			return true;
+
+		}
+
+	}
+
+</script>

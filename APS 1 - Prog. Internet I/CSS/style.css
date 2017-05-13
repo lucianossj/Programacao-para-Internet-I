@@ -1,0 +1,144 @@
+/* Vittório Barella de Andrade Barella - Teste de Tabelas */
+
+body.paginaA /*Corpo do site*/
+{
+	background-color: #000;/*Cor de fundo na cor preta*/
+	color: #fff;/*Letras na cor Branca*/
+	font-family: Tahoma, sans-serif;/*Define a fonte das Letras*/
+	font-size: 14px;/*Tamanho da Letra*/
+	height: 100%;/*Height é usado para definir a Altura */
+}
+.titulo/*Título onde diz TESTE DE TABELAS*/
+{
+	color: #000;/*Cor da Letra em preto*/
+	padding: 5px;/*Espaçamento*/
+	text-align: center;/*Alinhamento do texto*/
+}
+header/*Cabeçalho*/
+{
+	background-color: #fff;/*Cor de fundo em branco*/
+}
+.menu-lateral
+{
+	float: left;/*Menu Lateral vai fluatar para Esquerda*/
+	width: 250px;/*Width é usado para definir a Largura*/
+}
+.menu-lateral li/*O elemento HTML <li>  (ou a Lista dos Itens de um elemento HTML)
+ é usado para representar um item que faz parte de uma lista*/
+{
+	background-color: #fff;/*Cor de fundo em branco*/
+	color: #000;/*Cor das Letras em preto*/
+	margin: 5px;/*Margem*/
+	padding: 5px;/*Espaçamento*/
+	text-align: center;/*Alinhamento do Texto*/
+	text-decoration: underline;/*Deixa o texto ou palavra em questão sublinhada*/
+}
+.menu
+{
+	margin: 0px;/*Margem*/
+	padding: 0px 10px 10px 10px !important;/*Espaçamento*/ 
+	/*Uma declaração de estilo com !important ignora
+	qualquer hierarquia e prevalece sobre todas as demais, é a de mais alta prioridade.*/
+}
+.conteudo-texto
+{
+	float: left; /*Flutua para Esquerda*/
+	width: 80%; /*Width é usado para definir a Largura */
+}
+.img-ny1
+{
+	height: 90px;/*Height é usado para definir a Altura */
+	width: 170px;/*Width é usado para definir a Largura */
+}
+.coluna-1
+{
+	float: left;/*Flutua para Esquerda*/
+	margin: 10px;/*Margem*/
+	width: 30%;/*Width é usado para definir a Largura */
+}
+.divisao
+{
+	height: 200px;/*Height é usado para definir a Altura */
+	width: 100%;/*Width é usado para definir a Largura */
+}
+footer/*Rodapé*/
+{
+	background-color: #ffffff;/*Cor de fundo em branco*/
+	bottom: 0;/*Deixa o elemento na parte de baixo do site*/
+	color: #000000;/*Cor das letras em preto*/
+	position: fixed;/*Posiciona fixo o elemento*/
+	width: 100%;/*Width é usado para definir a Largura */
+}
+.ligue
+{
+	background-color: #fff;/*Cor de fundo em branco*/
+	color: #000;/*Cor das letras em preto*/
+	padding: 10px;/*Espaçamento*/
+	text-align: center;/*Alinhamento do texto ou palavra ao centro*/
+	width: 63%;/*Width é usado para definir a Largura */
+}
+.contato
+{
+	height: 50px !important;/*Height é usado para definir a Altura */
+	/*Uma declaração de estilo com !important ignora
+	qualquer hierarquia e prevalece sobre todas as demais, é a de mais alta prioridade.*/
+}
+.texto
+{
+	width: 22% !important;/*Width é usado para definir a Largura */
+	/*Uma declaração de estilo com !important ignora
+	qualquer hierarquia e prevalece sobre todas as demais, é a de mais alta prioridade.*/
+}
+
+/* Luciano da Silva Santos Junior - Index e Cadastro de Usuários */
+
+body.paginaIndex {background-image: url("Imagens/Background_Index.jpg");}
+
+body.paginaB {background-image: url("Imagens/Background_Cadastro.jpg");}
+
+.formText {margin-left: 15%; margin-right: 15%}
+.formField {width: 50%;}
+.formComboBox {width: 20%}
+.formButton {margin-left: 48%; margin-top: 3%; width: 15%}
+
+
+h1 {
+	text-align: center;
+	color: black; 
+	font-variant: small-caps;
+	font-style: normal;
+	font-family: monospace;
+	background-color: #C0C0C0;
+}
+
+h3.index{	
+	text-align: center; 
+	color: black;
+	font-variant: small-caps;
+	font-style: normal;
+	font-family: monospace;
+}
+
+h3.paginaB{text-align: center; margin-top: 1%; margin-bottom: -1%}
+
+h4{font-weight: bold; background-color: #00BFFF; margin-top: 2%; color: black}
+
+table {width: 100%}
+
+td.index {
+	text-align: center;
+	color: black;
+	font-variant: small-caps;
+	font-style: normal;
+	font-family: monospace
+	font-size: 30px;
+}
+
+img.index {margin-left: 80%; margin-top: 8%;}
+
+button.back {
+
+	margin-left: 80%;
+	font-family: inherit;
+
+}
