@@ -1,0 +1,176 @@
+/* Corpo do site */
+body{
+	background-color: #00b8e6 !important;
+
+}
+/* Fim Corpo do site */
+
+
+/* titulo */
+.titulo{
+	
+	color:#ffffff;
+}    
+/* Fim - titulo */
+
+/* Sub - titulo */
+ .sub-titulo{
+ 	 margin-left: 15px;
+ 	 color:#F2F2DA;
+ }
+/* Fim - Sub- */
+
+/* Paragrafo */
+.texto{
+    
+    color:#ffffff;
+}
+
+/* Fim Paragrafo */
+
+/* div nome */
+.nome{width: 390px;
+	 
+      margin-top: 15px; 
+      color:#F2F2DA
+}
+/* Fim div nome */
+
+/* div data-nasc */
+.data-nasc{width: 390px;
+	  
+      margin-top: 15px;
+      color:#F2F2DA 
+}
+/* exemplo-data */
+.exemplo-data{color:#F2F2DA;
+			  font-size:14px;
+			  margin-left: 145px;
+}
+
+/* input cor-data */
+.cor-data{color:#000000 ;
+
+}
+/* Fim input cor-data */
+
+/* Fim exemplo-data */
+/* Fim div data-nasc */
+
+/* div escolha-sexo */
+.escolha-sexo{width: 390px;
+			  
+		      margin-top: 15px;
+		      color:#F2F2DA 	
+}
+/* Fim div escolha-sexo */
+
+/* div Calcula Peso */
+.Peso{width: 390px;
+	  
+      margin-top: 15px;
+      color:#F2F2DA
+}
+
+/* Fim div Calcula Peso */
+
+/* div Calcula Altura */
+.Altura  {width: 390px;
+		  
+		  margin-top: 15px;
+		  color:#F2F2DA
+
+}
+/* Fim div Calcula Altura */
+
+/* div botoes */
+.botoes{
+		margin-top: 50px;
+	    
+	    margin-bottom: 15px;
+}
+/* Fim div botoes */
+
+/* div rodapé */
+.rodape{
+		background-color:#00468B; 
+}
+
+/* texto-rodape */
+.texto-rodape{margin-top: 15px;
+			  color:#ffffff; 
+			  text-shadow: 0.1em 0.1em #333;
+			  margin-left: 15px;
+
+}
+/* Fim  texto-rodape */
+
+/* linguagens*/
+.icones-linguagens{ 
+	color:#ffffff;
+	text-shadow: 0.1em 0.1em #333;
+	margin-left: 15px;
+
+}
+/* Fim linguagens*/
+/* Fim div rodape*/
+
+/* imagens rodape */
+.imagem-html{
+    
+    height: auto;
+    
+    float: left;
+ 
+}
+
+.imagem-Java_Script{
+    
+    height: auto;
+    margin-left: 15px;
+ 	float: left;
+ 	margin-top: -2px;
+
+}
+
+.imagem-css{
+ 	
+    height: auto;
+    margin-left: 15px;
+    float: left;
+    margin-right: 20px;
+    margin-top: -5px;
+
+}
+
+.imagem-bootstrap{  
+    				height: auto;
+				    margin-top: 15px;
+		    		margin-left: 15px;
+		    		float: left;
+		    		margin-right: 15px;
+}
+
+.imagem-PHP{	margin-top: 35px;    
+				float: left;
+				margin-right: 15px;
+			    
+			    height: auto;
+}
+
+
+
+
+/* Fim imagens rodape */
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*CSS da Página principal.php*/
+
+/*mostra-dados*/
+.mostra-dados{   margin-left: 10px;
+    			 color: #ffffff;
+
+
+}
+/*Fim mostra-dados*/
